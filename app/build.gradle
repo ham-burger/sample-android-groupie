@@ -1,6 +1,7 @@
 plugins {
     id 'com.android.application'
     id 'kotlin-android'
+    id 'kotlin-kapt'
 }
 
 android {
@@ -49,6 +50,8 @@ dependencies {
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.4.0'
 
 
-//    implementation "com.github.lisawray.groupie:groupie:2.9.0"
-//    implementation "com.github.lisawray.groupie:groupie-viewbinding:2.9.0"
+    implementation "androidx.recyclerview:recyclerview:1.2.0-alpha06"
+
+    implementation "com.xwray:groupie:2.9.0"
+    implementation "com.xwray:groupie-databinding:2.9.0"
 }
